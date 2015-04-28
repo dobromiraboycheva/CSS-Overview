@@ -1,0 +1,44 @@
+table{
+    border:1px solid #a09e9e;
+    background-color: #fff;
+    font-family: 'Calibri';
+    color: #000;
+    border-collapse: collapse;
+    text-align: left;
+    font-size: 14px;
+}
+
+table th{
+    background-color: #05d744;
+    color: #fff;
+    font-weight: normal;
+    padding: 2px;
+    border-left:1px solid #008800;
+    border-right: 1px solid #008800;
+    border-bottom:1px solid #008800;
+}
+
+table>tbody>tr>td{
+    padding-right: 50px;
+    border-left:1px solid #a09e9e;
+    border-right: 1px solid #a09e9e;;
+}
+
+table>tbody>tr:nth-child(even){
+    background-color: rgba(211, 211, 40, 0.42);
+}
+
+.DE:before{
+    content:url(Flag_Germany.png);
+    vertical-align: -25%;
+}
+
+.Mexico:before{
+    content:url(Flag_Mexico.png);
+    vertical-align: -25%;
+}
+
+.UK:before{
+    content:url(Flag_England.png);
+    vertical-align: -25%;
+}
